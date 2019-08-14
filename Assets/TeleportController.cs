@@ -16,6 +16,7 @@ public class TeleportController : MonoBehaviour
 
     void Update()
     {
+
         InputDevice device = InputDevices.GetDeviceAtXRNode(nodeType);
         bool touched = false;
 
